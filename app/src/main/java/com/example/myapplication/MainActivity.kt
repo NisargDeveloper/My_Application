@@ -13,6 +13,11 @@ class MainActivity : AppCompatActivity() {
 
 
     fun test() {
-        print("Testing new function")
+        println("Testing new function")
+        testing2();
+    }
+
+    fun testing2() {
+        println("Testing another function")
     }
 }
